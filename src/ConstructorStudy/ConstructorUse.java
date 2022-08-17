@@ -8,15 +8,16 @@ public class ConstructorUse {
 		cu.add();
 		ConstructorUse cu1=new ConstructorUse(25,35);
 		cu1.add();
-		ConstructorUse cu2=new ConstructorUse(15,17,18);
+		//ConstructorUse cu2=new ConstructorUse(15,17,18);
+		ConstructorUse cu2=new ConstructorUse(16,15,20ss);
 		cu2.add();
-	
+		
 	}
 	
 	int a;  //global non static variable
 	int b;
 	int c;
-	
+
 	
 	/*ConstructorUse() //deafult constructor
 	{
